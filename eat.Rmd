@@ -55,9 +55,16 @@ From the previous data, we can see that the overall frequency of the white race 
 
 
 
+# Numerical
 
 
+```{r}
+table1 <- xtabs(~race + eatout,data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+The white race is eating at the percentage of 82.83%, the black race is eating at the percentage of 68.75, and the other races are eating at the percentage of 77.78%.
 
 
 
