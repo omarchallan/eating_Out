@@ -66,6 +66,21 @@ colPerc(table1)
 
 The white race is eating at the percentage of 82.83%, the black race is eating at the percentage of 68.75, and the other races are eating at the percentage of 77.78%.
 
+# Inferential
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+From the previous data, we noticed a statistical difference between the data. 
+
+```{r}
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
+```
+
+When we first ran the Fisher XY commands we got a low p-value only between white and black. However, when we ran it the other time, after adding the print, all equal, true part, we got two different other values that were significantly higher than the first one. 
 
 
 
