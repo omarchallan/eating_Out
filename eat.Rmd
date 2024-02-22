@@ -83,5 +83,13 @@ fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 When we first ran the Fisher XY commands we got a low p-value only between white and black. However, when we ran it the other time, after adding the print, all equal, true part, we got two different other values that were significantly higher than the first one. 
 
 
+# Discussion & Conclusion
+
+
+In conclusion, the data suggest that there is a difference in the frequency, and the percentage of the routes between the black and the white races. The data indicated that there is a statistically significant difference in the data between the two races. The graphical, a numerical results, both indicated that the white race eat out at a higher frequency and percentage than the black and the other races. The critical P-value Show that the frequency of eating out is the difference between the white and the black races.
+
+Therefore, the alternative hypothesis is the correct conclusion. 
+$H_A$ There is a statistical difference between at least two races with the frequency of eating out
+
 
 
